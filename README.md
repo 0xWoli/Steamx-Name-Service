@@ -33,5 +33,4 @@ Welcome to the Rails Network Naming Service (RNN) repository. RNN is a decentral
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/rails-network-naming.git
-
+https://github.com/0xWoli/cool-domains/tree/main
