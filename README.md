@@ -35,8 +35,3 @@ Welcome to the Rails Network Naming Service (RNN) repository. RNN is a decentral
 ```bash
 git clone https://github.com/your-username/rails-network-naming.git
 
-2. Navigate to the cloned directory and install dependencies:
-
-```bash
-cd rails-network-naming
-npm install
