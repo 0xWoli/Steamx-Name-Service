@@ -1,82 +1,78 @@
-# Technical roadmap
+# Technical Roadmap for Rails Network Naming Service
+
 Roadmap in details:
-- [x] User Onboarding and Wallet Creation
-    - [x] Implement user registration
-    - [x] Implement email verification
-    - [x] Expose endpoints for /accounts, /transfer
-    - [x] Implement utility functions around User Account and Wallet management.
-    - [x] Generate unique wallet ID based on the user's email
-    - [x] Rewrite `GetAccountByID` to be `GetAccountByWalletID`.
-    - [x] Add `GetAccountByEmail` function.
-    - [x] Write tests.
 
-- [ ] Wallet Creation for Different Blockchains
-  - [x] Implement Ethereum Wallet Creation
-  - [x] Write tests
-  - [ ] Implement Bitcoin Wallet Creation
-  - [ ] Write tests
+- [ ] **User Registration and Domain Management**
+    - [ ] Implement user registration
+    - [ ] Implement email verification
+    - [ ] Expose endpoints for /domains, /register, /renew, /transfer
+    - [ ] Implement utility functions for Domain Account and Management on Rails Network.
+    - [ ] Generate unique domain ID based on user's request
+    - [ ] Rewrite `GetDomainByID` to be `GetDomainByDomainID`.
+    - [ ] Add `GetDomainByName` function.
+    - [ ] Write tests.
 
-- [ ] Database Integration
-  - [x] Implement database operations for user onboarding with `users` and `account`
-  - [ ] Setup development Postgres DB via Docker for testing
-  - [ ] Implement database operations for wallet management
-  - [ ] Setup development Postgres DB via Docker for testing
+- [ ] **Integration with Rails Network Blockchain**
+    - [ ] Implement Rails Network Domain Registration
+    - [ ] Create smart contracts specific to Rails Network for domain management
+    - [ ] Write tests
 
-- [ ] Define API endpoints
-    - [ ] Implement `/swap` endpoint
-    - [ ] Implement `/stake` endpoint
-    - [ ] Implement `/feeds` endpoint
+- [ ] **Database Integration**
+    - [ ] Implement database operations for domain registration with `domains` and `users`
+    - [ ] Setup development Postgres DB via Docker for testing
+    - [ ] Implement database operations for domain management on Rails Network
+    - [ ] Setup another instance of Postgres DB via Docker for testing
 
-- [ ] Implement API Handlers
-    - [ ] Create handlers for each API endpoint
+- [ ] **Define API Endpoints**
+    - [ ] Implement `/search` endpoint for Rails Network domains
+    - [ ] Implement `/buy` endpoint for Rails Network domains
+    - [ ] Implement `/renew` endpoint for Rails Network domains
+
+- [ ] **Implement API Handlers**
+    - [ ] Create handlers for each API endpoint specific to Rails Network
     - [ ] Handle incoming HTTP requests
-    - [ ] Validate inputs
-    - [ ] Interact with application services
+    - [ ] Validate domain inputs for Rails Network standards
+    - [ ] Interact with domain registration services on Rails Network
 
-- [ ] Implement Services
-    - [ ] Implement wallet service logic
+- [ ] **Implement Services**
+    - [ ] Implement domain registration service logic for Rails Network
 
-- [ ] Token Conversion and Wallet Management
-    - [ ] Implement token conversion logic
-    - [ ] Store converted tokens in the user's wallet
+- [ ] **Token Integration for Domain Payments on Rails Network**
+    - [ ] Implement token payment logic specific to Rails Network
+    - [ ] Confirm domain ownership after payment on Rails Network
+    - [ ] Create domain renewal logic based on Rails Network token payments
 
-- [ ] Swap Functionality
-    - [ ] Implement token swapping functionality
-    - [ ] Receive external web2 tokens
-    - [ ] Write logic that implements the liquidity swap following pre-set metrics from web2 tokens to $CLDS
-    - [ ] Find multi-chain wallet service to use
-    - [ ] Read multi-chain wallet service docs
-    - [ ] Begin swap to web3 tokens functionality
+- [ ] **Domain Search and Availability on Rails Network**
+    - [ ] Implement search functionality
+    - [ ] Confirm domain availability on Rails Network
+    - [ ] Show domain price based on Rails Network demand or rarity
 
-- [ ] Staking Functionality
-    - [ ] Implement staking functionality
-    - [ ] Set up smart contracts or mechanisms for staking
+- [ ] **Domain Transfer and Renewal on Rails Network**
+    - [ ] Implement domain transfer functionalities for Rails Network
+    - [ ] Setup smart contracts for domain transfer on Rails Network
+    - [ ] Implement domain renewal mechanism on Rails Network
 
-- [ ] Feeds Endpoint
-    - [ ] Implement the Feeds endpoint for news and announcements
-    - [ ] Fetch and display relevant information
+- [ ] **Testing**
+    - [ ] Write unit tests specific to Rails Network integrations
+    - [ ] Write integration tests for Rails Network functionality
 
-- [ ] Testing
-    - [ ] Write unit tests
-    - [ ] Write integration tests
+- [ ] **Documentation**
+    - [ ] Document API endpoints for Rails Network domains
+    - [ ] Document domain data models for Rails Network
+    - [ ] Document setup and running instructions for Rails Network naming service
 
-- [ ] Documentation
-    - [ ] Document API endpoints
-    - [ ] Document data models
-    - [ ] Document setup and running instructions
+- [ ] **Deployment**
+    - [ ] Create deployment scripts for Rails Network environment
+    - [ ] Deploy the naming service to Rails Network
 
-- [ ] Deployment
-    - [ ] Create deployment scripts
-    - [ ] Deploy the application to your chosen hosting environment
+- [ ] **Monitoring and Logging**
+    - [ ] Implement monitoring for Rails Network integrations
+    - [ ] Implement logging for Rails Network transactions
+    - [ ] Set up alerts for critical domain-related events on Rails Network
 
-- [ ] Monitoring and Logging
-    - [ ] Implement monitoring
-    - [ ] Implement logging
-    - [ ] Set up alerts for critical events
+- [ ] **User Interface**
+    - [ ] Develop the user interface for Rails Network domain search, purchase, and management
+    - [ ] Integrate it with the backend endpoints specific to Rails Network
 
-- [ ] User Interface
-    - [ ] Develop the mobile user interface 
-    - [ ] Integrate it with the backend endpoints
-
-- [ ] Community and Support
-    - [ ] Set up a support system for $CLDX users.
+- [ ] **Community and Support**
+    - [ ] Set up a support system for Rails Network domain users.
