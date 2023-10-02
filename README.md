@@ -1,6 +1,6 @@
-# Rails Network Naming Service (RNN)
+# Steamx Naming Service (RNN)
 
-Welcome to the Rails Network Naming Service (RNN) repository. RNN is a decentralized domain naming system built on the Rails Network blockchain. It offers users the ability to register, renew, and manage domain names in a decentralized manner.
+Welcome to the Steamx Naming Service (SNS) repository. SNS is a decentralized domain naming system built on the Rails Network blockchain. It offers users the ability to register, renew, and manage domain names in a decentralized manner.
 
 ## Table of Contents
 
