@@ -1,4 +1,4 @@
-# Steamx Naming Service (RNN)
+# Steamx Naming Service (SNS)
 
 Welcome to the Steamx Naming Service (SNS) repository. SNS is a decentralized domain naming system built on the Rails Network blockchain. It offers users the ability to register, renew, and manage domain names in a decentralized manner.
 
